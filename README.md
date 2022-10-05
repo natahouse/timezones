@@ -2,6 +2,7 @@
 Repositório destinado a reunir informações sobre Timezones para facilitar o uso nos projetos.
 
 # Contribuindo
+Para contribuir, por favor, siga os modelos abaixo.
 
 ## ✏️ Pull Requests
 - **TÍTULO:** assuntoGeral: descricao<br>
