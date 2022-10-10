@@ -7,8 +7,8 @@ assignees: ''
 
 ---
 
-Por favor, utilize o seguinte modelo para o título da issue: tipoDeProblema: descricao<br>
-*ex: Documentacao: corringindo erros ortograficos*
+# ✏️ Descrição
+*Descreva o problema com o máximo de detalhes possível.*
 
-# Descrição
-*Descreva o problema com o máximo de detalhes possível*
+# 🖼️🔗 Screenshots ou Links
+*Se possível, adicione screenshots ou links para facilitar entender o problema.*
