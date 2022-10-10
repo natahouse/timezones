@@ -20,7 +20,7 @@ São necessários os seguintes programas para a utilização e modificação do 
 Faça um clone do repositório utilizando:
 
 ```
-git clone https://github.com/he4rt/react4noobs
+git clone https://github.com/natahouse/timezones
 ```
 
 # Contribuindo
