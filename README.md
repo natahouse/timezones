@@ -1,6 +1,13 @@
 # ⌛ Timezones
 Repositório destinado a reunir informações sobre Timezones para facilitar o uso nos projetos.
 
+<p align="center">
+ <a href="#pré-requisitos">Pré-requisitos</a> •
+ <a href="#instalação">Instalação</a> • 
+ <a href="#contribuindo">Contribuindo</a> • 
+ <a href="#colaboradores">Colaboradores</a> • 
+</p>
+
 # Pré-requisitos
 São necessários os seguintes programas para a utilização e modificação do projeto.
 
