@@ -38,7 +38,7 @@ Para contribuir, por favor, siga os modelos abaixo.
 
 ## ⚠️ Issues
 
-- **TÍTULO:** tipoDeProblema: descricao<br>
+- **TÍTULO:** tipoDeProblemaOuSugestao: descricao<br>
   _ex: Documentacao: corringindo erros ortograficos_
 - TÓPICOS: <br>
   - Descrição
