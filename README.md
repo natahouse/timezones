@@ -2,7 +2,7 @@
   <img src="/assets/natahouse-logo-header.png" width="200">
 </p>
 
-## ⌛ Guia prático de Timezones
+## 🌎 Guia prático de Timezones
 
 Repositório destinado a reunir informações sobre Timezones para facilitar o uso nos projetos.
 
