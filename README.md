@@ -57,5 +57,5 @@ Para contribuir, por favor, siga os modelos abaixo.
 </table>
 
 <p align="center">
-  <img src="/assets/natahouse-logo.png">
+  <img src="/assets/natahouse-logo.png" width="250">
 </p>
