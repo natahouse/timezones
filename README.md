@@ -53,6 +53,7 @@ Para contribuir, por favor, siga os modelos abaixo.
   <tr>
     <td align="center"><a href="https://github.com/philipeatela"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/9261021?v=4" width="100px;" alt=""/><br /><sub><b>Philipe Pinheiro Atela</b></sub></a><br />
     <td align="center"><a href="https://github.com/saulojoab"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/37988252?v=4" width="100px;" alt=""/><br /><sub><b>Saulo Joab</b></sub></a><br />
+    <td align="center"><a href="https://github.com/portugaAndre"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/62671184?v=4" width="100px;" alt=""/><br /><sub><b>André Vinicius Andrade</b></sub></a><br />
   </tr>
 </table>
 
