@@ -1,4 +1,4 @@
-# ⌛ Timezones
+## ⌛ Timezones
 
 Repositório destinado a reunir informações sobre Timezones para facilitar o uso nos projetos.
 
@@ -9,13 +9,13 @@ Repositório destinado a reunir informações sobre Timezones para facilitar o u
  <a href="#colaboradores">Colaboradores</a> • 
 </p>
 
-# Pré-requisitos
+## Pré-requisitos
 
 São necessários os seguintes programas para a utilização e modificação do projeto.
 
 - [Git](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwih4PLP8NX6AhVZlZUCHReaAbQQFnoECAkQAQ&url=https%3A%2F%2Fgit-scm.com%2F&usg=AOvVaw1lFNWgbWf8FsbaoU4AOPBr)
 
-# Instalação
+## Instalação
 
 Faça um clone do repositório utilizando:
 
@@ -23,7 +23,7 @@ Faça um clone do repositório utilizando:
 git clone https://github.com/natahouse/timezones
 ```
 
-# Contribuindo
+## Contribuindo
 
 Para contribuir, por favor, siga os modelos abaixo.
 
@@ -36,14 +36,14 @@ Para contribuir, por favor, siga os modelos abaixo.
   - Descrição
   - Referências
 
-## ⚠️ Issues
+### ⚠️ Issues
 
 - **TÍTULO:** tipoDeProblemaOuSugestao: descricao<br>
   _ex: Documentacao: corringindo erros ortograficos_
 - TÓPICOS: <br>
   - Descrição
 
-## Colaboradores
+### Colaboradores
 
 <table>
   <tr>
