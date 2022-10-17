@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="/assets/natahouse-logo-header.png">
+</p>
 ## ⌛ Timezones
 
 Repositório destinado a reunir informações sobre Timezones para facilitar o uso nos projetos.
