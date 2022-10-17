@@ -6,9 +6,9 @@ Timezones, por outro lado, são um pouco mais complexas de se lidar (por isso qu
 
 # O que são timezones?
 
-O termo "timezone", traduzido de forma literal significaria "zona de tempo", normalmente se refere ao tempo local de uma região ou país. O tempo local de uma timezone é definido pela sua diferença do UTC (Tempo Universal Coordinado), que é o padrão internacional.
+O termo "timezone", traduzido de forma literal significaria "zona de tempo", normalmente se refere ao tempo local de uma região ou país. Muitas pessoas também usam o termo "fuso-horário" para se referir as timezones. O tempo local de uma timezone é definido pela sua diferença do UTC (Tempo Universal Coordinado), que é o padrão internacional.
 
-Normalmente as timezones seguem a fronteira entre os países, e não a longitude, já que é mais útil que locais que se comuniquem com frequência usem a mesma timezone. Lugares que tem a latitude alta costumam usar o conhecido (e falecido) horário de verão por metade do ano, adicionando uma hora no tempo local pra economizar energia.
+Normalmente os fuso-horários seguem a fronteira entre os países, e não a longitude, já que é mais útil que locais que se comuniquem com frequência usem a mesma timezone. Lugares que tem a latitude alta costumam usar o conhecido (e falecido) horário de verão por metade do ano, adicionando uma hora no tempo local pra economizar energia.
 
 A primeira pessoa a propor o uso de timezones foi o engenheiro canadense Sir Sanford Fleming em 1878 (um baita tempo atrás!). Como a terra rotaciona 15 graus a cada hora (ou seja, 360 graus em um dia), ele propôs dividir o mundo em 24 timezones com 15 graus de longitude de diferença entre elas. Esse modelo é utilizado até hoje, e vale lembrar que essa é uma explicação um pouco mais simplificada.
 
@@ -16,7 +16,7 @@ As timezones são utilizadas em todos os propositos sociais, comerciais e legais
 
 # Qual a importância para os projetos?
 
-Digamos que você está desenvolvendo um aplicativo que deve implementar um calendário, relógio ou qualquer outra coisa que envolva manipulação de dados de tempo. O motivo pelo qual devemos levar as timezones em consideração é: se dois usuários que moram em lugares diferentes do mundo utilizassem o aplicativo, o mesmo deve se adaptar para a timezone de cada um.
+Digamos que você está desenvolvendo um aplicativo que deve implementar um calendário, relógio ou qualquer outra coisa que envolva manipulação de dados de tempo. O motivo pelo qual devemos levar as timezones em consideração é: se dois usuários que moram em lugares diferentes do mundo utilizassem o aplicativo, o mesmo deve se adaptar para o fuso-horário de cada um.
 
 Muitas vezes é bem confuso e complicado tentar implementar funções que utilizam timezones do zero, por isso que já existem diversas bibliotecas que já fazem esse trabalho pelo dev. Muitos serviços de banco de dados também já armazenam os dados com suas respectivas timezones para facilitar as conversões nos aplicativos.
 
