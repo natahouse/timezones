@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/assets/natahouse-logo-header.png">
+  <img src="/assets/natahouse-logo-header.png" width="200">
 </p>
 ## ⌛ Timezones
 
