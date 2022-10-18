@@ -2,16 +2,14 @@
   <img src="/assets/natahouse-logo-header.png" width="200">
 </p>
 
-## 🌎 Guia prático de Timezones
+# 🌎 Guia prático de Timezones
 
 Repositório destinado a reunir informações sobre Timezones para facilitar o uso nos projetos.
 
 <p align="center">
  <a href="#documentacao">Documentação</a> •
- <a href="#pré-requisitos">Pré-requisitos</a> •
- <a href="#instalação">Instalação</a> • 
- <a href="#contribuindo">Contribuindo</a> • 
- <a href="#colaboradores">Colaboradores</a> 
+ <a href="#contribuindo-com-o-projeto">Contribuindo com o projeto</a> •
+ <a href="#contribuidores">Contribuidores</a> 
 </p>
 
 ## Documentação
@@ -53,7 +51,7 @@ Para contribuir, por favor, siga os modelos abaixo.
 - TÓPICOS: <br>
   - Descrição
 
-## Colaboradores
+## Contribuidores
 
 <table>
   <tr>
