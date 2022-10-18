@@ -15,6 +15,7 @@ Repositório destinado a reunir informações sobre Timezones para facilitar o u
 </p>
 
 ## **Documentação**
+Conteúdos relevantes para quem está buscando aprofundar no trabalho com Timezones.
 
 - [O que são Timezones](./docs/conceitos/o-que-sao-timezones.md)
 
