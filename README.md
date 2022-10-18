@@ -1,3 +1,5 @@
+<a name="readme-top"></a>
+
 <p align="center">
   <img src="/assets/natahouse-logo-header.png" width="200">
 </p>
@@ -15,6 +17,8 @@ Repositório destinado a reunir informações sobre Timezones para facilitar o u
 ## Documentação
 
 - [O que são Timezones](./docs/conceitos/o-que-sao-timezones.md)
+
+<p align="right">(<a href="#readme-top">Início</a>)</p>
   
 ## Contribuindo com o projeto
 ### Pré-requisitos
@@ -23,6 +27,8 @@ São necessários os seguintes programas para a utilização e modificação do 
 
 - [Git](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwih4PLP8NX6AhVZlZUCHReaAbQQFnoECAkQAQ&url=https%3A%2F%2Fgit-scm.com%2F&usg=AOvVaw1lFNWgbWf8FsbaoU4AOPBr)
 
+<p align="right">(<a href="#readme-top">Início</a>)</p>
+
 ### Instalação
 
 Faça um clone do repositório utilizando:
@@ -30,6 +36,8 @@ Faça um clone do repositório utilizando:
 ```
 git clone https://github.com/natahouse/timezones
 ```
+
+<p align="right">(<a href="#readme-top">Início</a>)</p>
 
 ### Como contribuir
 
@@ -51,6 +59,8 @@ Para contribuir, por favor, siga os modelos abaixo.
 - TÓPICOS: <br>
   - Descrição
 
+<p align="right">(<a href="#readme-top">Início</a>)</p>
+
 ## Contribuidores
 
 <table>
@@ -61,6 +71,8 @@ Para contribuir, por favor, siga os modelos abaixo.
     <td align="center"><a href="https://github.com/karanmelo"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/7671485?v=4" width="100px;" alt=""/><br /><sub><b>Karan Melo</b></sub></a><br />
   </tr>
 </table>
+
+<p align="right">(<a href="#readme-top">Início</a>)</p>
 
 <p align="center">
   <img src="/assets/natahouse-logo.png" width="250">
