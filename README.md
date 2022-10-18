@@ -18,13 +18,14 @@ Repositório destinado a reunir informações sobre Timezones para facilitar o u
 
 - [O que são Timezones](./docs/conceitos/o-que-sao-timezones.md)
   
-## Pré-requisitos
+## Contribuindo com o projeto
+### Pré-requisitos
 
 São necessários os seguintes programas para a utilização e modificação do projeto.
 
 - [Git](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwih4PLP8NX6AhVZlZUCHReaAbQQFnoECAkQAQ&url=https%3A%2F%2Fgit-scm.com%2F&usg=AOvVaw1lFNWgbWf8FsbaoU4AOPBr)
 
-## Instalação
+### Instalação
 
 Faça um clone do repositório utilizando:
 
@@ -32,11 +33,11 @@ Faça um clone do repositório utilizando:
 git clone https://github.com/natahouse/timezones
 ```
 
-## Contribuindo
+### Como contribuir
 
 Para contribuir, por favor, siga os modelos abaixo.
 
-## ✏️ Pull Requests
+### ✏️ Pull Requests
 
 - **TÍTULO:** assuntoGeral: descricao<br>
   _ex: Hooks: criando hooks para converter datas_
@@ -52,7 +53,7 @@ Para contribuir, por favor, siga os modelos abaixo.
 - TÓPICOS: <br>
   - Descrição
 
-### Colaboradores
+## Colaboradores
 
 <table>
   <tr>
