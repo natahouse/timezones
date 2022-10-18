@@ -11,7 +11,7 @@ Repositório destinado a reunir informações sobre Timezones para facilitar o u
 <p align="center">
  <a href="#documentacao">Documentação</a> •
  <a href="#contribuindo-com-o-projeto">Contribuindo com o projeto</a> •
- <a href="#contribuidores">Contribuidores</a> 
+ <a href="#contribuidores">Contribuidores</a>
 </p>
 
 ## Documentação
