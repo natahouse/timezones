@@ -4,7 +4,7 @@
   <img src="/assets/natahouse-logo-header.png" width="200">
 </p>
 
-# 🌎 Guia prático de Timezones
+# 🌎 **Guia prático de Timezones**
 
 Repositório destinado a reunir informações sobre Timezones para facilitar o uso nos projetos.
 
@@ -14,13 +14,13 @@ Repositório destinado a reunir informações sobre Timezones para facilitar o u
  <a href="#contribuidores">Contribuidores</a>
 </p>
 
-## Documentação
+## **Documentação**
 
 - [O que são Timezones](./docs/conceitos/o-que-sao-timezones.md)
 
 <p align="right">(<a href="#readme-top">Início</a>)</p>
   
-## Contribuindo com o projeto
+## **Contribuindo com o projeto**
 ### Pré-requisitos
 
 São necessários os seguintes programas para a utilização e modificação do projeto.
@@ -61,7 +61,7 @@ Para contribuir, por favor, siga os modelos abaixo.
 
 <p align="right">(<a href="#readme-top">Início</a>)</p>
 
-## Contribuidores
+## **Contribuidores**
 
 <table>
   <tr>
