@@ -52,3 +52,12 @@
 👀 &nbsp; **Alternativas:** Permitir que os próprios desenvolvedores tentem acertar qual é o formato correto ❌; 
 
 <br/>
+
+# 📗 Referências
+
+As dicas presentes nesta seção vieram de uma junção da experiência de trabalho do "Core Team" de contribuidores deste projeto em conjunto com outros conteúdos em inglês presentes na web.
+
+Para cada novo PR para esta lista de dicas, continuaremos exigindo as referências externas de forma a enriquecer a base de conhecimento e permitir que as pessoas consultem estas fontes de forma a aprofundar nos assuntos debatidos aqui.
+
+- https://dev.to/corykeane/3-simple-rules-for-effectively-handling-dates-and-timezones-1pe0 (dicas 2, 3 e 4)
+- https://spin.atomicobject.com/2015/12/09/time-zones-software-development/ (dicas 2 e 4)
