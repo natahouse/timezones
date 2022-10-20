@@ -1,6 +1,6 @@
 # ✅ Boas Práticas
 
-**Observação:** O formato utilizado nesta seção foi fortemente insipirado neste [repositório](https://github.com/testjavascript/nodejs-integration-tests-best-practices), que faz um EXCELENTE trabalho explicando boas práticas de Testes de Integracão em Node. Recomendo fortemente para todos que trabalham com essa tecnologia.
+**Observação:** O formato utilizado nesta seção foi fortemente inspirado neste [repositório](https://github.com/testjavascript/nodejs-integration-tests-best-practices), que faz um EXCELENTE trabalho explicando boas práticas de Testes de Integração em Node. Recomendo fortemente para todos que trabalham com essa tecnologia.
 
 <br/>
 
@@ -8,11 +8,11 @@
 
 🏷 &nbsp; **Tags:** `#boaspraticas`
 
-✅ &nbsp; **O que fazer:** Sua aplicação nunca deverá lidar com data separada de hora ou hora separada de data. Mesmo que para um caso de uso específico você precise apenas de uma das duas informações, sua vida ficará muito mais simples se você lidar apenas com variáveis de datahora (datetimes). Isso significa que qualquer definição formal dentro do seu sistema como colunas de banco de dados, propriedades de classes, parâmetros de funções e etc devem ser do tipo datahora e conter ambas as partes desta informação.
+✅ &nbsp; **O que fazer:** Sua aplicação nunca deverá lidar com data separada de hora ou hora separada de data. Mesmo que para um caso de uso específico você precise apenas de uma das duas informações, sua vida ficará muito mais simples se você lidar apenas com variáveis de datahora (datetime). Isso significa que qualquer definição formal dentro do seu sistema como colunas de banco de dados, propriedades de classes, parâmetros de funções e etc devem ser do tipo datahora e conter ambas as partes desta informação.
 
 <br/>
 
-👀 &nbsp; **Alternativas:** Definir variáveis que armazenam apenas a data de forma a simplificar algumas das suas operações, mas a custo de perda de flexibilidade e manutenabilidade já que qualquer pequena mudança de requisitos (ex: instituir internacionalização no sistema) pode fazer com que seja necessário grande volume de reescrita de código ❌;  
+👀 &nbsp; **Alternativas:** Definir variáveis que armazenam apenas a data de forma a simplificar algumas das suas operações, mas a custo de perda de flexibilidade e manutenibilidade já que qualquer pequena mudança de requisitos (ex: instituir internacionalização no sistema) pode fazer com que seja necessário grande volume de reescrita de código ❌;  
 
 <br/>
 
@@ -41,7 +41,7 @@
 
 <br/>
 
-### ⚪️ &nbsp; 4. Definir algum formato de exibicão padrão.
+### ⚪️ &nbsp; 4. Definir algum formato de exibição padrão.
 
 🏷 &nbsp; **Tags:** `#boaspraticas`
 
