@@ -140,3 +140,5 @@ Lembrando do exemplo descrito anteriormente em que o usuário nos EUA visualizar
 ## **Conclusão**
 
 Ao aplicar as sugestões de melhoria acima, resolvemos a maior parte dos problemas mencionados no início do artigo. Nem tudo que foi mencionado aqui é absolutamente necessário, mas a ideia deste artigo é mostrar que ao seguir um conjunto pequeno de boas práticas de gerenciamento de datas, conseguimos evitar a grande maioria dos problemas recorrentes. 
+
+**Referências:** Este artigo foi construído principalmente a partir da experiência pessoal do contribuinte. Para consulta de alguns assuntos, foi lido um blog post na página https://javascript.plainenglish.io/handling-common-javascript-problems-when-using-timezone-76e419aee6e.
