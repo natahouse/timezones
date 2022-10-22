@@ -89,3 +89,20 @@ apt install tzdata
 
 Com esse pacote instalado, é criado arquivos de TZ no diretório `/usr/share/zoneinfo/` e então é possível [definir uma timezone manuealmente](#Definir-TZ-Manualmente)
 
+## Definindo Timezone através da Variável de Ambiente TZ
+
+Se um sistema possui timezones disponíveis, é possível configurar a timezone do sistema através da variável de ambiente `TZ`, definindo para essa variável a timezone desejada.
+
+No exemplo abaixo é definida a TZ de New York para um container Docker Debian.
+
+**Subindo um container Debian com a TZ definida através de variável de ambiente**
+```bash
+docker container run -it -e TZ="America/New_York" debian
+```
+
+Dentro do container, com o comando `date`, temos a informação que foi definido o fuso EDT (Eastern Time Zone).
+
+```bash
+date
+# Mon Oct 24 10:13:14 EDT 2022
+```
