@@ -26,14 +26,16 @@ Nesse exemplo, a TZ definida é UTC−3
 ## Definir TZ Usando `timedatectl`
 Há algumas formas de definir a timezone em um ambiente Linux. A mais simples talvez seja usando `timedatectl`, que está disponível em muitas distribuições. Com ele é possível listar as timezones disponíveis e definir uma para o sistema. Além de outras operações relacionadas a horário, como definir a hora do sistema, e ativar ou desativar a sincrnização de hora por NTP (Network Time Protocol).
 
-**Listar timezones:**
+A forma mais simples de configurar TZ em um sistema Linux talvez seja usando `timedatectl`, que está disponível em muitas distribuições. Com ele é possível listar as timezones disponíveis e definir uma para o sistema. Além de outras operações relacionadas a horário, como definir a hora do sistema, e ativar ou desativar a sincronização de hora por NTP (Network Time Protocol).
+
+**Listar timezones com `timedatectl`:**
 ```bash
 timedatectl list-timezones
 ```
 
 Com a lista de timezones disponíveis no sistema, é possível definir a TZ com o comando `set-timezone`, como por exemplo definir o sistema para o fuso de São Paulo:
 
-**Definir uma timezones:**
+**Definir uma timezone:**
 ```bash
 timedatectl set-timezone America/Sao_Paulo
 ```
