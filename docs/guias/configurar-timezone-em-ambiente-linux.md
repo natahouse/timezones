@@ -3,6 +3,7 @@
 Há algumas formas de definir a timezone em um ambiente Linux. A seguir é descrito como verificar a TZ definida no sistema, bem como alterar para alguma TZ desejada.
 
 ## Conteúdos
+
 - [Checar Timezone Definida no Sistema](#checar-timezone-definida-no-sistema)
 - [Definir TZ Usando `timedatectl`](#definir-tz-usando-timedatectl)
 - [Definir TZ Manualmente através de `/etc/localtime`](#definir-tz-manualmente-atrav%C3%A9s-de-etclocaltime)
@@ -46,7 +47,7 @@ timedatectl set-timezone America/Sao_Paulo
 
 ## Definir TZ Manualmente através de `/etc/localtime`
 
-Caso não seja possível usar `timedatectl`, há uma forma mais tradicional para configurar a TZ do sistema, que é difinir um link simbólico no diretório `/etc/localtime` para um arquivo de timezone em `/usr/share/zoneinfo`.
+Caso não seja possível usar `timedatectl`, há uma forma mais tradicional para configurar a TZ do sistema, que é difinir um link simbólico no diretório `/etc/localtime` para um arquivo de timezone em `/usr/share/zoneinfo`, ou copiar um arquivo de timezone para `/etc/localtime`.
 
 Primeiro, é preciso localizar as timezones disponíveis no sistema, listando o conteúdo do diretório `/usr/share/zoneinfo`
 
@@ -78,6 +79,13 @@ Então pode ser criado um link simbólico para algum arquivo de TZ disponível n
 **Criando um symbolic link para TZ de São Paulo:**
 ```bash
 ln -s /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
+```
+
+De forma alternativa à criar um link simbólico, é possível copiar o arquivo para o diretório `/etc/localtime`
+
+**Copiando um arquivo de timezone para `/etc/localtime`**
+```bash
+cp /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
 ```
 
 ## Instalando Timezones através de `tzdata`
