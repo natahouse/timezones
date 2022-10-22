@@ -4,7 +4,7 @@ Há algumas formas de definir a timezone em um ambiente Linux. A seguir é descr
 
 ## Checar Timezone Definida no Sistema
 
-Para verificar a TZ usada no sistema, é possível usar o comando `date`. Esse comando informa a data, hora e TZ configurada
+Para verificar a TZ usada no sistema, é possível usar o comando `date`. Esse comando informa a data, hora e TZ configurada.
 
 **Informações de data com `date`:**
 ```bash
@@ -12,16 +12,14 @@ date
 # Sat Oct 22 09:47:44 UTC 2022
 ```
 
-No exemplo acima, a TZ definida no sistema é UTC (Coordinated Universal Time)
+No exemplo acima, a TZ definida no sistema é UTC (Coordinated Universal Time).
 
-Também há casos em que é mostrado apenas o offset para a hora em UTC, como nesse exemplo:
+Também há casos em que é mostrado apenas o offset para a hora em UTC, como nesse exemplo, em que a timezone definida é UTC−3:
 
 ```bash
 date
 # Sun Oct 23 11:58:27 PM -03 2022
 ```
-
-Nesse exemplo, a TZ definida é UTC−3
 
 ## Definir TZ Usando `timedatectl`
 
@@ -50,6 +48,8 @@ Primeiro, é preciso localizar as timezones disponíveis no sistema, listando o 
 ls /usr/share/zoneinfo
 ```
 
+Caso não exista timezones salvas, é possivel [Instalar através de `tzdata`](#Instalando-Timezones-através-de-`tzdata`)
+
 As timezones geralmente estão organizadas nesse diretório em regiões como continentes ou países
 
 **Exemplo da TZ de São Paulo no Debian:**
@@ -72,3 +72,20 @@ Então pode ser criado um link simbólico para algum arquivo de TZ disponível n
 ```bash
 ln -s /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
 ```
+
+## Instalando Timezones através de `tzdata`
+
+Em alguns ambientes específicos, como containers minificados, há a possibilidade de não haver arquivos de timezone pre instalados no sistema. Para resolver isso, é possível instalar o pacote `tzdata`. Esse pacote contém arquivos de regras para vários fusos do mundo, baseado na [Time Zone Database](https://www.iana.org/time-zones).
+
+**Instalando `tzdata` no Alpine Linux:**
+```bash
+apk add tzdata
+```
+
+**Instalando `tzdata` no Ubuntu Server**
+```bash
+apt install tzdata
+```
+
+Com esse pacote instalado, é criado arquivos de TZ no diretório `/usr/share/zoneinfo/` e então é possível [definir uma timezone manuealmente](#Definir-TZ-Manualmente)
+
