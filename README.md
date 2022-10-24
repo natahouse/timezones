@@ -64,6 +64,8 @@ Para contribuir, por favor, siga os modelos abaixo.
 - TÓPICOS: <br>
   - Descrição
 
+### 📃 Ler [Code of Conduct](https://github.com/natahouse/timezones/blob/main/CODE_OF_CONDUCT.md)
+
 <p align="right">(<a href="#readme-top">Início</a>)</p>
 
 ## **Contribuidores**
