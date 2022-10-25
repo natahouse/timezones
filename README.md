@@ -77,9 +77,12 @@ Para contribuir, por favor, siga os modelos abaixo.
     <td align="center"><a href="https://github.com/saulojoab"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/37988252?v=4" width="100px;" alt=""/><br /><sub><b>Saulo Joab</b></sub></a><br />
     <td align="center"><a href="https://github.com/portugaAndre"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/62671184?v=4" width="100px;" alt=""/><br /><sub><b>André Vinicius Andrade</b></sub></a><br />
     <td align="center"><a href="https://github.com/karanmelo"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/7671485?v=4" width="100px;" alt=""/><br /><sub><b>Karan Melo</b></sub></a><br />
+  </tr>
+  <tr>  
     <td align="center"><a href="https://github.com/devwander"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/44070849?v=4" width="100px;" alt=""/><br /><sub><b>Wanderson José</b></sub></a><br />
     <td align="center"><a href="https://github.com/mathiasfc"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/11564356?v=4" width="100px;" alt=""/><br /><sub><b>Mathias Falci de Castro</b></sub></a><br />
     <td align="center"><a href="https://github.com/Franqsanz"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/44296203?v=4" width="100px;" alt=""/><br /><sub><b>Franco Sánchez</b></sub></a><br />
+    <td align="center"><a href="https://github.com/joaopedromago"><img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/24943676?v=4" width="100px;" alt=""/><br /><sub><b>João Mago</b></sub></a><br />
   </tr>
 </table>
 
