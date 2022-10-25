@@ -88,6 +88,15 @@ De forma alternativa à criar um link simbólico, é possível copiar o arquivo 
 cp /usr/share/zoneinfo/America/Sao_Paulo /etc/localtime
 ```
 
+Há alguns programas que não usam `/etc/localtime` como arquivo de timezone, ao invés disso, leem o arquivo `/etc/timezone`. Diferentemente de `/etc/localtime`, que é um arquivo binário, `/etc/timezone` é um arquivo de texto que contém o caminho para algum arquivo de timezone, por exemplo a informação de: "America/Sao_Paulo". Essa informação é usada pelo programa para definir seu fuso horário pela sua base de dados.
+
+Sendo assim, é interesante, além de configurar o arquivo `/etc/localtime`, também criar o arquivo `/etc/timezone`, e deixa-lo sempre atualizado com a timezone utilizada no sistema, pois esses dois arquivos podem estar divergentes.
+
+**Configurando o arquivo `/etc/timezone`**
+```bash
+echo "America/Sao_Paulo" > /etc/timezone
+```
+
 ## Instalando Timezones através de `tzdata`
 
 Em alguns ambientes específicos, como containers minificados, há a possibilidade de não haver arquivos de timezone pre instalados no sistema. Para resolver isso, é possível instalar o pacote `tzdata`. Esse pacote contém arquivos de regras para vários fusos do mundo, baseado na [Time Zone Database](https://www.iana.org/time-zones).
