@@ -21,7 +21,7 @@ Informações relevantes para quem está buscando aprofundar no trabalho com Tim
 - [O que são Timezones](./docs/conceitos/o-que-sao-timezones.md)
 - [Dicas rápidas](./docs/conceitos/dicas-rapidas.md)
 - [Trabalhando com Filtros de Data](./docs/guias/filtros-com-data.md)
-- [Usando Mocks de Date.Now com Jest](./docs/guias/mock-com-date.md)
+- [Usando Mocks de Date.Now com Jest](./docs/guias/mock-de-date-now-com-javascript-e-jest.md)
 - [O que representa a convenção ISO?](./docs/conceitos/o-que-representa-a-convecao-iso.md)
 
 <p align="right">(<a href="#readme-top">Início</a>)</p>
