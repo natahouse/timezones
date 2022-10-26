@@ -23,6 +23,7 @@ Informações relevantes para quem está buscando aprofundar no trabalho com Tim
 - [Trabalhando com Filtros de Data](./docs/guias/filtros-com-data.md)
 - [Usando Mocks de Date.Now com Jest](./docs/guias/mock-de-date-now-com-javascript-e-jest.md)
 - [O que representa a convenção ISO?](./docs/conceitos/o-que-representa-a-convecao-iso.md)
+- [Configurando Timezone em ambiente Linux](./docs/guias/configurar-timezone-em-ambiente-linux.md)
 
 <p align="right">(<a href="#readme-top">Início</a>)</p>
   
